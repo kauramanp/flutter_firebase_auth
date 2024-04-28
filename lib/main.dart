@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_login/login_screen.dart';
+import 'package:flutter_firebase_login/reatime_db_screen.dart';
 
 import 'firebase_options.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginScreen(title: 'Flutter Demo Home Page'),
+      home: const RealtimeDbScreen(title: 'Flutter Demo Home Page'),
     );
   }
 }
